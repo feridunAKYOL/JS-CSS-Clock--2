@@ -4,7 +4,7 @@
 
 ## 0. Development Strategy
 
-* Write the `development strategy.md` to share the tasks.
+* Write the `README.md`including the final screen shot.
 * Include a License
 * Include this `development.md` file
 
@@ -22,14 +22,14 @@ __A user can see which sound each key will make__
 
 ### DOM:
 
-* Create one element per key in the drumset, with child elements to display the key name and sound it will make
-* Create a container for all of the key elements
+* Create divs for the clock 
+* Create three hands for the clock
 
 ---
 
-## 3. User Story: Play Sounds
+## 3. User Story: Hand Transform
 
-__A user can press the displayed keys and hear the sound__
+__A user can__
 
 ### Assets:
 
