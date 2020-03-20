@@ -17,7 +17,7 @@ body {
 	position: relative;
 	padding: 2rem;
 }
-
+/* these are for the hands of hour, seconds and minute */
 .hand {
 	width: 50%;
 	height: 6px;
@@ -25,4 +25,10 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 0;
+
+	/* for the transformation */
+	transform-origin: 100%;
+	transform: rotate(90deg);
+	transition: all 0.05s;
+	transition-timing-function: linear;
 }
