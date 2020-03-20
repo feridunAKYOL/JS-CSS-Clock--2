@@ -4,7 +4,7 @@
 
 ## 0. Development Strategy
 
-* Write the `README.md`including the final screen shot.
+* Write the `README.md`including the final screen shot and live demo.
 * Include a License
 * Include this `development.md` file
 
@@ -16,76 +16,55 @@
 
 ---
 
-## 2. User Story: Display Keyboard
+## 2. User Story: Display Clock
 
-__A user can see which sound each key will make__
+__A user can see the clock face and hands__
+
+The clock shows the 12:00 but it does not work yet.
 
 ### DOM:
 
 * Create divs for the clock 
 * Create three hands for the clock
 
+### Style
+
+* With using CSS prepare the basic shape of the clock.
+
 ---
 
 ## 3. User Story: Hand Transform
 
-__A user can__
-
-### Assets:
-
-* Create a `/sounds` folder containing all of the .wav files
+__When a user open the page the clock work properly.__
 
 ### DOM:
 
-* Create audio tags with paths to the sound assets
-* Create script tags for the Handler & Listener
-* Create `data-key` attributes to link the key elements with the audio elements
+* Add the `transform-origin` tag to put the hands at the origin.
 
-### Listeners:
+* Create `transform` and `transition` tags to move the hands
 
-* Attach a `keyup` event to the window object.
-
-### Handlers:
-
-* Create a `playSound` event handler that checks to see if the pressed key has a linked audio sound. If it does, play the sound!
 
 ---
 
-## 4. User Story: See Beauty
+## 4. User Story: Set Date
+
+__The clock start automatically with an exact time.__
+
+### Handlers:
+
+* Create a `setDate` handler to show the time.
+* The hands move acoording to their roles.
+
+
+
+## 5. User Story: See Beauty
 
 __A user can use a well-styled page__
 
-### Assets:
-
-* Add the background image to  `/images`
-
 ### Styles:
 
-* Require and apply the background image
-* Create styles for the keys
+* Use `url` for the background.
 
-### DOM:
-
-* Create a link tag to require the styles
-* Add classes to styled elements
 
 ---
-
-## 5. User Story: Animate Keys
-
-__A user can know which keys are currently pressed__
-
-### Styles:
-
-* Create a class for keys that are currently pressed
-
-### Handlers:
-
-* Create a `removeTransition` handler to remove the `.playing` class when a key is released
-* Update the `playHandler` to add the `.playing` class when a key is pressed
-
-### Listeners:
-
-* Add a `transitionend` listener to each element with the `.key` class, with the `removeTransition` handler.
-
 
