@@ -1,1 +1,38 @@
 # JS-CSS-Clock--2
+
+A clock built with only HTML, CSS & JavaScript. This project uses HTML and CSS to build the frame of clock. JavaScript sets the real time and moves the hands of hour-minutes and seconds.
+
+Try the live demo [right here](https://ayseakyol.github.io/JS-CSS-Clock--2/), it looks something like this:
+
+[![drum kit screen shot](./screenshots/clock.png)](https://github.com/ayseakyol/JS-CSS-Clock--2)
+
+---
+
+## Notes
+
+Studying this project we learned about:
+
+* Dynamically setting classes
+* Using the `<audio>` tag and .wav assets
+* How the query selector can be used to easily interact with many elements
+* How milestones, labels & issues can help organize work ->
+  * user stories === milestones
+  * tasks === issues
+  * labels === what type of task it is
+
+We struggled with:
+
+* How to create the development strategy.  It was tricky to figure out that the `playHandler` can actually work without changing the `.played` class, once that was clear it was easier to create the _Keys Light Up_ user story.
+* We kept making mistakes with the `data-key` attributes and linking the wrong keys and sounds.
+* Merge Conflicts!  whoever invented these has no soul
+* Keeping track of all the branches and forks.  OMG, github is confusing
+
+These resources were very helpful:
+
+* [KeyBoard Event Values](https://css-tricks.com/snippets/javascript/javascript-keycodes/)
+* [gmlwjd9405/git-collaboration](https://github.com/gmlwjd9405/git-collaboration)
+* [GitHub Project Management](https://github.com/features/project-management)
+
+---
+
+> * Code refactored from [Wes Bos](https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
