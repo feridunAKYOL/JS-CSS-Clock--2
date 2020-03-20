@@ -31,6 +31,9 @@ The clock shows the 12:00 but it does not work yet.
 
 * With using CSS prepare the basic shape of the clock.
 
+after this stage we create something like that :
+![](https://raw.githubusercontent.com/ayseakyol/JS-CSS-Clock--2/master/screenshots/wireframe%20for%20clock.png)
+
 ---
 
 ## 3. User Story: Hand Transform
