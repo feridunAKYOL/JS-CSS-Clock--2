@@ -12,9 +12,9 @@ Try the live demo [right here](https://ayseakyol.github.io/JS-CSS-Clock--2/), it
 
 Studying this project we learned about:
 
-* Dynamically setting classes
-* Using the `<audio>` tag and .wav assets
-* How the query selector can be used to easily interact with many elements
+* Using `transform` and `transition` tags
+* How the `Date` tag start the time.
+* How the rotate the hands with the help of style transform.
 * How milestones, labels & issues can help organize work ->
   * user stories === milestones
   * tasks === issues
@@ -22,17 +22,16 @@ Studying this project we learned about:
 
 We struggled with:
 
-* How to create the development strategy.  It was tricky to figure out that the `playHandler` can actually work without changing the `.played` class, once that was clear it was easier to create the _Keys Light Up_ user story.
-* We kept making mistakes with the `data-key` attributes and linking the wrong keys and sounds.
-* Merge Conflicts!  whoever invented these has no soul
-* Keeping track of all the branches and forks.  OMG, github is confusing
+* How to create the development strategy. 
+* We could not change the length of the hands. When we change the length of them, the origin is also changed.
+* Keeping track of all the branches and forks. 
 
 These resources were very helpful:
 
-* [KeyBoard Event Values](https://css-tricks.com/snippets/javascript/javascript-keycodes/)
-* [gmlwjd9405/git-collaboration](https://github.com/gmlwjd9405/git-collaboration)
+* [Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+* [Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 * [GitHub Project Management](https://github.com/features/project-management)
 
 ---
 
-> * Code refactored from [Wes Bos](https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
+> * Code refactored from [Wes Bos](https://github.com/wesbos/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)
