@@ -13,7 +13,7 @@ Try the live demo [right here](https://ayseakyol.github.io/JS-CSS-Clock--2/), it
 Studying this project we learned about:
 
 * Using `transform` and `transition` tags
-* How the `Date` tag start the time.
+* How the `Date` function start the time.
 * How the rotate the hands with the help of style transform.
 * How milestones, labels & issues can help organize work ->
   * user stories === milestones
